@@ -2,6 +2,8 @@
 
 This original source code had contingencies that made the code not only difficult to follow but also more lengthy than necessary. For starters, classes were added to the divs in the html file which were then referenced in the .css. For example: ".header div ul li" was given a class of ".link-3." This compresses the code in an efficient and less confusing manner. Also there were unecessary atributes in the .css file which could of been simpified without any additional modification other than just deleting extra syntax. An example of this is the ".header h1" was simplified to "h1" which has the same effect yet more efficient. To make the .cc file more readable the attributes that were applicalbe to classes, such as ".float-left" were moved to the end of the .css file. This logic was also applied to the divs within the ".content" class. They were moved up in the .css file to be right below the ".content" class. Finally, a container was added to the body of the page so that when the window is shortened the attibutes of the page stay within the divs that they were in.
 
+https://lcalderin12.github.io/homework1-refractor/
+
 Luis Calderin
 
 ## User Story
